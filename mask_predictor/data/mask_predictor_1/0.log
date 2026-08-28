@@ -1,0 +1,18 @@
+2026-08-28 14:18:53,758 - zarr_path       : /mnt/sdd/era5/sais2025/era5_china_2018_2022.zarr
+2026-08-28 14:18:53,758 - save_dir        : ./data/mask_predictor_1/
+2026-08-28 14:18:53,759 - batch_size      : 4
+2026-08-28 14:18:53,759 - base_channels   : 64
+2026-08-28 14:18:53,759 - max_val_samples : 2048
+2026-08-28 14:18:53,759 - max_test_samples : None
+2026-08-28 14:18:53,759 - seed            : 42
+2026-08-28 14:18:53,759 - amp             : False
+2026-08-28 14:18:53,759 - epochs          : 50
+2026-08-28 14:18:53,759 - lr              : 0.0001
+2026-08-28 14:18:53,759 - device          : cuda:0
+2026-08-28 14:18:53,759 - lead_steps      : 4
+2026-08-28 14:23:28,969 - [MaskTrain 001/50] 274.04 sec | train_loss=0.198007 train_bce=0.132958 train_focal=0.065049 | val_loss=0.151377 val_csi=0.5175 val_pod=0.7047 val_far=0.3392
+2026-08-28 14:23:29,025 -   -> saved best mask predictor: epoch=1, best_val_loss=0.151377
+2026-08-28 14:27:42,659 - [MaskTrain 002/50] 253.63 sec | train_loss=0.139601 train_bce=0.098485 train_focal=0.041116 | val_loss=0.133630 val_csi=0.5469 val_pod=0.7100 val_far=0.2958
+2026-08-28 14:27:42,827 -   -> saved best mask predictor: epoch=2, best_val_loss=0.133630
+2026-08-28 14:31:56,167 - [MaskTrain 003/50] 253.34 sec | train_loss=0.127561 train_bce=0.088446 train_focal=0.039115 | val_loss=0.126644 val_csi=0.5652 val_pod=0.7416 val_far=0.2962
+2026-08-28 14:31:56,352 -   -> saved best mask predictor: epoch=3, best_val_loss=0.126644
