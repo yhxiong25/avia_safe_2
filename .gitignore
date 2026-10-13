@@ -1,0 +1,12 @@
+/backup/
+/logs/
+/free_trail/
+/process_check/
+__pycache__/
+*.log
+*.json
+*.pt
+*.csv
+*.png
+*.pdf
+*.pyc
